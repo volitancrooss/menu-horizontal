@@ -1,0 +1,112 @@
+body {
+
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    
+    width: 100%;
+    position: absolute;
+}
+nav ul li{
+    width: 180px;
+    
+}
+ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    position: relative;
+    width: 150px;
+    
+}
+
+a {
+    display: block;
+    padding: 10px 0px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #ff0202;
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
+    
+}
+
+a:hover {
+
+    background-color: rgb(117, 18, 18);
+}
+
+
+li ul {
+
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+    
+    
+}
+
+li:hover > ul {
+
+    display: block;
+}
+
+li ul li {
+    float: left;
+}
+
+li ul li a {
+    padding: 7px 17px;
+    float: left;
+    text-align: left;
+}
+
+li ul li a:hover {
+    background-color: #68f1a1;
+
+}
+
+li > ul > li > ul {
+    left: 100%; /* Mueve el submenú al lado derecho */
+    top: 0;
+  }
+
+
+
+#menu-alumnos ul li ul li ul li{
+
+    position: relative;
+    left: 35px;
+}
+#menu-proyectos ul li ul li ul li{
+
+    position: relative;
+    left: 35px;
+}
+
+#menu-rrhh ul li ul li ul li{
+
+    position: relative;
+    left: 35px;
+}
+
+#menu-inventario ul li ul li ul li{
+
+    position: relative;
+    left: 35px;
+}
+
+
