@@ -23,12 +23,14 @@ ul {
     width: 100%;
 }
 
+
 li {
     float: left;
     position: relative;
     width: 150px;
     
 }
+
 
 a {
     display: block;
@@ -40,13 +42,22 @@ a {
     width: 100%;
     text-align: center;
     
+    
 }
 
 a:hover {
 
     background-color: rgb(117, 18, 18);
+    font-size: 22px;
 }
 
+.sub-alumnos li a:hover {
+    padding: 10px 30px 10px ;
+    
+}
+.sub-config li a:hover {
+    padding: 10px 30px 10px ;
+} 
 
 li ul {
 
@@ -80,9 +91,15 @@ li ul li a:hover {
 }
 
 li > ul > li > ul {
+    left: 200px; /* Mueve el submenú al lado derecho */
+    top: 0;
+}
+li > ul > li > ul:hover {
     left: 100%; /* Mueve el submenú al lado derecho */
     top: 0;
-  }
+}
+
+
 
 
 
@@ -91,22 +108,6 @@ li > ul > li > ul {
     position: relative;
     left: 35px;
 }
-#menu-proyectos ul li ul li ul li{
 
-    position: relative;
-    left: 35px;
-}
-
-#menu-rrhh ul li ul li ul li{
-
-    position: relative;
-    left: 35px;
-}
-
-#menu-inventario ul li ul li ul li{
-
-    position: relative;
-    left: 35px;
-}
 
 
